@@ -31,7 +31,7 @@ ul li {
 }
 
 .bg-color-dark-blue {
-  background-color: #0096AF;
+  background-color: #00F6FF;
 }
 
 .bg-color-pink {
@@ -407,6 +407,16 @@ ul li {
   box-shadow: 6px 6px 0px 0px #fff;
 }
 
+.case-study-card.style-2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+@media(max-width: 600px){
+  .case-study-card.style-2{
+    display: block;
+  }
+}
 .study-img-wt img {
   border-radius: 24px;
 }
